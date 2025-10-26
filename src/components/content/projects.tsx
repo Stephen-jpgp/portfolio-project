@@ -4,12 +4,12 @@ export default function Projects(){
     return (
         <div className="p-28 flex flex-col gap-8">
             <div className="flex justify-center">
-                <h1 className="text-4xl">
+                <h1 className="text-3xl">
                     Lemme show and explain what I&apos;ve been working with
                 </h1>
             </div>
             <div className="flex flex-row gap-8">
-                <h1 className="pl-14 pr-14 text-xl">
+                <h1 className="pl-14 pr-14 text-lg">
                     At HPE, I worked in creating an IDP that processes the deployment info from various teams (our clients) and used this to record analytics and display this information (as graphs, charts) in a manner the teams could process. 
                     <br/><br/>
                     Along with this, I had built deployment suites using GitHub Actions and Workflows so while teams pulled PRs or pushed their changes, these actions were used as triggers to deploy documentation, store multiple forms of data, using PostgresQL, in a universal format in our database.
@@ -35,7 +35,7 @@ export default function Projects(){
 
 
                     <br/>
-                    For my personal project, I tried making a map app that takes a description of a location you wish to travle to and returns the position of the place you wish to travel to:
+                    For my personal project, I tried making a map app that takes a description of a location you wish to travel to and returns the position of the place you wish to travel to:
                     <br/>
                     (btw that&apos;s not a picture below, you can interact with my project here 🥰)
                     <br/><br/>

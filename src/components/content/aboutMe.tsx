@@ -7,7 +7,7 @@ export default function AboutMe(){
                 </h1>
             </div>
             <div className="flex flex-row gap-8">
-                <h1 className="p-14 text-xl">
+                <h1 className="p-1/6 text-lg">
                     I am a FullStack Software Engineer by profession and as of 2025, have about 3 years of experience at <i>Hewlett-Packard Enterprise</i>. I&apos;ve worked with:
                     <br/><br/><br/>
                     <b>Programming Languages</b>: C | Java | Python | JavaScript | TypeScript | Shell

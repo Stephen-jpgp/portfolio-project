@@ -17,7 +17,7 @@ export default function Hello(){
             </div>
             <div className="flex flex-col md:flex-row gap-8">
                 <Image src={"/profile.webp"} alt='my image' width={1000} height={1000} className="w-100 h-100 rounded-full" quality={100} />
-                <h1 className="p-16 text-xl">
+                <h1 className="p-16 text-lg">
                     So a little about me, I&apos;m Stephen James and am I glad to meet ya!
                     <br/><br/>
                     This is a space I made (and will improve) to share my journey as a Software Engineer, artist, singer and much much more. I hope you also have fun as you see my world and yeah, lemme know your thoughts and if you&apos;d like to connect ✨

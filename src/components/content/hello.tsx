@@ -27,10 +27,10 @@ export default function Hello(){
                             <Image width={120} height={120} src={"/insta.png"} alt='insta' className="w-12"/>
                         </a>
                         <div className="flex flex-col items-center group">
-                            <Image width={120} height={120}  className="cursor-pointer w-12" alt='mail' src={"/gmail.png"} onClick={()=>copy("stephenjamesmathew2000@gmail.com","Mail Id")} />
-                            <div className="absolute opacity-0 translate-y-11 text-sm pl-2 pr-2 group-hover:opacity-100 transition-opacity bg-black/25 rounded-sm duration-300">
-                                Click to copy
-                            </div>
+                            <a href = {`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent("stephenjamesmathew2000@gmail.com")}&su=${encodeURIComponent("Hi Stephen")}`} target='_blank'>
+                                <Image width={120} height={120}  className="cursor-pointer w-12" alt='mail' src={"/gmail.png"} />
+                            </a>
+                            
                         </div>
                         <div className="flex flex-col items-center group">
                             <Image width={120} height={120}  className="cursor-pointer w-12" alt='phone' src={"/whatsapp.png"} onClick={()=>copy("+91 9108530079", "Phone number")} />
